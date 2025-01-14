@@ -1,0 +1,63 @@
+/* General item styling */
+.item {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    cursor: pointer;
+  }
+  
+  /* Title styling */
+  .title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  /* Active state styling for multi-selection */
+  .active {
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+  }
+  
+  /* Answer section styling */
+  .item div {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #fafafa;
+    border-top: 1px solid #ddd;
+  }
+  
+  /* Button to enable multi-selection */
+  button {
+    padding: 10px 20px;
+    margin: 10px 0;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Additional responsive styles */
+  @media (max-width: 600px) {
+    .item {
+      padding: 8px;
+    }
+  
+    .title {
+      font-size: 16px;
+    }
+  
+    .item div {
+      padding: 8px;
+    }
+  }
+  
