@@ -36,7 +36,7 @@ const GithubProfileFinder = () => {
       {userData && (
         <div>
           <h3>Name: {userData.name}</h3>
-          <h3>Last Name: {userData.name}</h3>
+          <h3>Last Nameee: {userData.name}</h3>
           <p>Username: {userData.login}</p>
           <p>Bio: {userData.bio}</p>
           <img src={userData.avatar_url} alt={`${userData.name}'s avatar`} width="200" />
